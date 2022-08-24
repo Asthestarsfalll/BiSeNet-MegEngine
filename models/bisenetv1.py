@@ -234,4 +234,4 @@ class BiSeNetV1(BaseModel):
     "https://studio.brainpp.com/api/v1/activities/3/missions/119/files/7a1d207e-cf91-420f-aeb5-770d3a87b901"
 )
 def bisenetv1(**kwargs):
-    return BiSeNetV1(**kwargs)
+    return BiSeNetV1(n_classes=19, **kwargs)
