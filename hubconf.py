@@ -1,0 +1,1 @@
+from models.bisenetv1 import BiSeNetV1, bisenetv1
